@@ -1,0 +1,69 @@
+.insidecontent h1,.insiderightmain h1{font-size:21px!important;}
+.insidecontent h2,.insiderightmain h2{font-size:19px!important;}
+.insidecontent h3,.insiderightmain h3{font-size:17px!important;}
+.insidecontent h4,.insiderightmain h4{font-size:17px!important;}
+.insidecontent h5,.insiderightmain h5{font-size:16px!important;}
+.insidecontent h6,.insiderightmain h6{font-size:15px!important;}
+
+body { font-size:17px; }
+.fontsize3 {color:#f18305!important;}
+.newsul li h2 a,.newsul li em,.focusPic .focusTitle li a,#pressbox ul li span,#pressbox ul li h3,#noticebox div p,.insiderightmain {font-size:17px;}
+
+.sectionlist h2 a {font-size:17px;}
+.sectionlist ul li a {font-size:17px;}
+.sectionlist ul li ul li a,#insidemenu_main ul.panel li a { font-size:16px; }
+
+.insidecontent h2,.insidecontent h3,.insidecontent h4,.insidecontent h5,.insidecontent h6 {color:#ff9500; margin-bottom:5px;}
+.insidecontent h1 {
+	width:inherit;
+	float:none;
+	margin-bottom:5px;
+}
+.insidecontent p,.insidecontent strong {margin-bottom:5px;}
+
+.insideright h1 {font-size:21px!important;}
+.tabBtn1{padding-left:36px;width:71px;}
+#toolsboxtitle{height: 27px;padding-top:5px;}
+.boxTitle h2{width: 150px;height:25px;padding: 1px 0 0 36px;}
+/*Role*/
+.rolelefttoptb table {font-size:16px;}
+a.rolecenterslider_tt {font-size:1em;}
+p.rolecenterslider_tt {font-size:1em;}
+.rolecenterbox_tt {font-size:19px;}
+.btn_role_help {font-size:16px;}
+.rolemain_bottom_b {font-size:19px;}
+.ip02_centerbottom strong {font-size:19px;}
+.rolerightbox_top h3 {font-size:17px;}
+.rolemain_bottom_c {margin:0;}
+p.role_ip02_slider a{    padding: 0 0 3px 12px;}
+.rolecenterbox_p{font-size: 15px;}
+
+
+/*Index News list*/
+.newsul li h2,.newsul li h2 a {width:260px;}
+.newsul li em {width:110px;}
+
+.datesearch {
+	background:url(../images/datesearch_css3.jpg) no-repeat;
+	}
+	.datemonthsearch {
+		width:514px;
+		}
+		
+.nceorfont {font-size:19px;}
+
+.reviewdate {font-size:16px;}
+.insidelinks ul li a{font-size:15px;}
+/* -------------------------------------------------new css 14-09-2015 ----------------------------------------*/
+/*---------------------------Background-----------------------------------*/
+.ageingBox .dataBlock table.desc td:first-child{
+	width: 1%;
+}
+.ageingBox .dataBlock table.desc td+td{
+	width: 11%;
+}
+.ageingBox .dataBlock table.desc td+td+td{
+	width: 7%;
+}
+
+/* -------------------------------------------------new css 14-09-2015 End----------------------------------------*/

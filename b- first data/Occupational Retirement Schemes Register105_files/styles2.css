@@ -1,0 +1,56 @@
+body { font-size:12px; }
+.fontsize1 {color:#f18305!important;}
+.newsul li h2 a,.newsul li em,.focusPic .focusTitle li a,#pressbox ul li span,#pressbox ul li h3,#noticebox div p,.insiderightmain {font-size:12px;}
+
+.sectionlist h2 a {font-size:12px;}
+.sectionlist ul li a {font-size:12px;}
+.sectionlist ul li ul li a,#insidemenu_main ul.panel li a { font-size:11px; }
+
+.insidecontent h2,.insidecontent h3,.insidecontent h4,.insidecontent h5,.insidecontent h6 {color:#ff9500; margin-bottom:5px;}
+.insidecontent h1 {
+	width:inherit;
+	float:none;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.insidecontent p,.insidecontent strong {margin-bottom:5px;}
+
+.insideright h1 {font-size:16px!important;}
+
+/*Role*/
+.rolelefttoptb table {font-size:11px;}
+a.rolecenterslider_tt,p.rolecenterslider_tt{font-size:1.2em;}
+.rolecenterbox_tt {font-size:14px;}
+.btn_role_help {font-size:11px;}
+.rolemain_bottom_b {font-size:14px;}
+.ip02_centerbottom strong {font-size:14px;}
+.rolerightbox_top h3 {font-size:12px;}
+.rolemain_bottom_c {margin:15px 0;}
+
+/*Index News list*/
+.newsul li h2,.newsul li h2 a {width:295px;}
+.newsul li em {width:75px;}
+.tabBtn1 {
+    width: 83px;
+    padding: 8px 0 0 34px;
+}
+.tabBtn2 {
+    width: 80px;
+    padding: 8px 0px 0 19px;
+	left: 116px;
+}
+.tabBtn3 {
+	width: 76px;
+    left: 214px;
+    padding: 8px 0 0 34px;
+}
+.datesearch {
+	background:url(../images/datesearch.jpg) no-repeat;
+	}
+	.datemonthsearch {
+		width:434px;
+		}
+		
+.nceorfont {font-size:14px;}
+
+.reviewdate {font-size:11px;}

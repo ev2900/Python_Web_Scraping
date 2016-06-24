@@ -1,0 +1,50 @@
+.insidecontent h1,.insiderightmain h1{font-size:18px!important;}
+.insidecontent h2,.insiderightmain h2{font-size:16px!important;}
+.insidecontent h3,.insiderightmain h3{font-size:14px!important;}
+.insidecontent h4,.insiderightmain h4{font-size:14px!important;}
+.insidecontent h5,.insiderightmain h5{font-size:13px!important;}
+.insidecontent h6,.insiderightmain h6{font-size:12px!important;}
+
+body { font-size:14px; }
+.fontsize2 {color:#f18305!important;}
+.newsul li h2 a,.newsul li em,.focusPic .focusTitle li a,#pressbox ul li span,#pressbox ul li h3,#noticebox div p,.insiderightmain {font-size:14px;}
+
+.sectionlist h2 a {font-size:14px;}
+.sectionlist ul li a {font-size:14px;}
+.sectionlist ul li ul li a,#insidemenu_main ul.panel li a { font-size:13px; }
+
+.insidecontent h2,.insidecontent h3,.insidecontent h4,.insidecontent h5,.insidecontent h6 {color:#ff9500; margin-bottom:5px;}
+.insidecontent h1 {
+	width:inherit;
+	float:none;
+	margin-bottom:5px;
+}
+.insidecontent p,.insidecontent strong {margin-bottom:5px;}
+
+.insideright h1 {font-size:18px!important;}
+.tabBtn1{padding-top:1px;}
+/*Role*/
+.rolelefttoptb table {font-size:13px;}
+.rolecenterslider_tt {font-size:16px;}
+.rolecenterbox_tt {font-size:16px;}
+.btn_role_help {font-size:13px;}
+.rolemain_bottom_b {font-size:16px;}
+.ip02_centerbottom strong {font-size:16px;}
+.rolerightbox_top h3 {font-size:14px;}
+.rolemain_bottom_c {margin:15px 0;}
+
+/*Index News list*/
+.newsul li h2,.newsul li h2 a {width:280px;}
+.newsul li em {width:90px;}
+
+.datesearch {
+	background:url(../images/datesearch_css2.jpg) no-repeat;
+	}
+	.datemonthsearch {
+		width:454px;
+		}
+		
+.nceorfont {font-size:16px;}
+
+.reviewdate {font-size:13px;}
+.insidelinks ul li a{font-size:13px;}

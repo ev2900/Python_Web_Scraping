@@ -1,0 +1,1074 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0066)http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do -->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="og:image" content="/eng/images/logo.jpg">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="SHORTCUT ICON" href="http://www.mpfa.org.hk/favicon.ico">
+
+
+
+<title>Occupational Retirement Schemes Register</title>
+<link href="./Occupational Retirement Schemes Register44_files/common.css" rel="stylesheet" type="text/css">
+<link href="./Occupational Retirement Schemes Register44_files/mainmenu.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Occupational Retirement Schemes Register44_files/jquery-1.7.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="./Occupational Retirement Schemes Register44_files/common.js"></script><script type="text/javascript" src="./Occupational Retirement Schemes Register44_files/jquery.autocomplete.js"></script>
+<link href="./Occupational Retirement Schemes Register44_files/orso.css" rel="stylesheet" type="text/css">
+<script src="./Occupational Retirement Schemes Register44_files/breadcrumb.js"></script>
+<!--Font Size-->
+<link rel="stylesheet" type="text/css" href="./Occupational Retirement Schemes Register44_files/styles2.css" title="styles2" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="./Occupational Retirement Schemes Register44_files/styles1.css" title="styles1" media="screen">
+<link rel="alternate stylesheet" type="text/css" href="./Occupational Retirement Schemes Register44_files/styles3.css" title="styles3" media="screen">
+<script type="text/javascript" src="./Occupational Retirement Schemes Register44_files/styleswitch.js"></script>
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="/eng/js/ie_png.js"></script>
+<script type="text/javascript">
+	ie_png.fix('.png, .sideBox, .searchimg');
+</script>
+<![endif]-->
+
+<!-- Topsbfavourite Corner -->
+<script type="text/javascript" src="./Occupational Retirement Schemes Register44_files/jquery.corner.js"></script>
+<script type="text/javascript">
+    $('#readyTest').corner("tr, bl, br, 5px");
+    
+     function controlPage(page){        
+		location.href="/eng/public_registers/orso_schemes/orlist.do?currentlyPage="+page;
+	}
+	
+	function cl(){
+	    document.getElementById("001").reset();
+	    var arr = document.getElementsByName("orsotype");
+		for(var i = 0; i < arr.length; i++){			
+			if(i != 1){
+				arr[i].checked = false;
+			}else{
+				arr[i].checked = true;
+			}
+		}	 
+		var fo = document.getElementById("001");
+	    fo.orsono.value = "";
+	    fo.schemeName.value="";
+	    fo.emploerName.value="";	  	    	
+	}
+	
+	function jp(page){
+		document.getElementById("currentlyPage").value=page;
+		document.getElementById("pageform").submit();
+	}
+	
+	function fenban(page){
+		document.getElementById("currentlyPage").value=page;		
+		document.getElementById("fenbanTag").value="fenban";
+		document.getElementById("pageform").submit();
+	}
+</script>
+<!-- End Topsbfavourite Corner -->
+
+
+
+</head>
+
+<body>
+<div class="wrap">
+	
+
+
+
+<a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#skip" class="skipBtn">Skip to Content</a>
+	<div id="header">
+	
+<script type="text/javascript">
+	var token = "null";
+	//document.cookie = "csrftoken="+token;
+	
+	function appendToken(){ 
+		updateForms(); 
+		//updateTags();
+		//alert(token); 
+	} 
+
+	function updateForms() { 
+		// 得到頁面中所有的 form 元素 
+		var forms = document.getElementsByTagName('form'); 
+		for(i=0; i<forms.length; i++) { 
+			var url = forms[i].action; 
+
+			// 如果這個 form 的 action 值为空，則不附加 csrftoken 
+			if(url == null || url == "" ) continue; 
+
+			// 動態生成 input 元素，加入到 form 之後 
+			var e = document.createElement("input"); 
+			e.name = "csrftoken"; 
+			e.value = token; 
+			e.type="hidden"; 
+			forms[i].appendChild(e); 
+		} 
+	} 
+
+	function updateTags() { 
+		var all = document.getElementsByTagName('a'); 
+		var len = all.length; 
+
+		// 遍曆所有 a 元素 
+		for(var i=0; i<len; i++) { 
+			var e = all[i]; 
+			updateTag(e, 'href', token); 
+		} 
+	} 
+
+	function updateTag(element, attr, token) { 
+		var location = element.getAttribute(attr); 
+		if(location != null && location != "") { 
+			var fragmentIndex = location.indexOf('#'); 
+			var fragment = null; 
+			if(fragmentIndex != -1){ 
+
+				//url 中含有只相當頁的錨標記 
+				fragment = location.substring(fragmentIndex); 
+				location = location.substring(0,fragmentIndex); 
+			} 
+
+			var index = location.indexOf('?'); 
+
+			if(index != -1) { 
+				//url 中已含有其他参數 
+				location = location + '&csrftoken=' + token; 
+			} else { 
+				//url 中沒有其他参數 
+				location = location + '?csrftoken=' + token; 
+			} 
+			if(fragment != null){ 
+				location += fragment; 
+			} 
+
+			element.setAttribute(attr, location); 
+		} 
+	} 
+</script>
+	
+	  <script type="text/javascript">	  
+	   function jump(tag)
+    {
+
+	
+        if(tag == "tch")
+        {	
+            var strUrl = location.href;
+        	if(strUrl.indexOf("/FrontInternal/engmanager")!=-1){
+          	with(document.getElementById("f2")) 
+	          {
+	           action="/FrontInternal/engmanager.do";   
+	            submit();   
+	            return;     
+	           }
+       		 }
+            var url = strUrl.replace("/eng","/tch");
+            location.href = url;
+            
+        }
+          else if(tag == "sch")
+          {
+          
+          	  var strUrl = location.href;
+      		  if(strUrl.indexOf("/FrontInternal/engmanager")!=-1){
+	          with(document.getElementById("f3")) 
+	          {
+	           action="/FrontInternal/engmanager.do";   
+	            submit();   
+	            return;     
+	           }
+        	  }
+            var url = strUrl.replace("/eng","/sch");
+            location.href = url;
+        }
+    } 	  
+    
+       function jumtxt(tag)
+    {
+
+        var strUrl = location.href;
+        if(strUrl.indexOf("/FrontInternal/engmanager")!=-1){
+          with(document.getElementById("f1")) 
+          {
+           action="/FrontInternal/engmanager.do";   
+            submit();   
+            return;     
+           }
+        }
+        else(tag == "engtxt")
+        {
+            var strUrl = location.href;
+            var url = strUrl.replace("/eng","/engtxt");
+            location.href = url;
+        }        
+    }
+    
+    function jumm(){
+    	var strUrl = location.href;
+        if(strUrl.indexOf("/FrontInternal/engmanager")!=-1){
+          with(document.getElementById("f4")) 
+          {
+           action="/FrontInternal/engmanager.do";   
+            submit();   
+            return;     
+           }
+        }
+        
+        var strUrl = location.href;
+        var url = strUrl.replace("/eng","/engm");
+        location.href = url;
+    }
+    
+    var alertMsg = [ ['Please enter keyword.','請輸入關鍵字。','请输入关键字。'], ['Please select a valid date.','請輸入有效日期。','请输入有效日期。'], ['The input field should not contain any special character(s).','輸入字段不能包含特殊字符。','输入字段不能包含特殊字符。']];
+    
+    function checkSearch() {
+    	var searchForm = document.head_search;
+    	var queryValue = searchForm.query.value;
+    	var lang = 0;
+    	if (searchForm.ui_lang.value == "en") lang = 0;
+		if (searchForm.ui_lang.value == "zh-hk") lang = 1;
+		if (searchForm.ui_lang.value == "zh-cn") lang = 2;
+    	if (queryValue == "") {
+    		alert(alertMsg[0][lang]);
+    		searchForm.query.value = "";
+    		searchForm.query.focus();
+    	} else {
+    		searchForm.submit();
+    	}
+    }
+    
+    var websites = ["Accrued benefits","Annual benefit statement (“ABS”)","Approved trustee","Casual employee","Compensation Fund","Contribution account","Contribution day","Contribution holiday","Contribution period","Contribution surcharge","Custodian","Debt security","Default contribution (“DC” )","Default fund","Employer sponsored scheme","Exempt person","Guarantee/qualifying condition","Guarantee fee","Investment objective","Mandatory contribution","Master trust scheme","Membership certificate","Minimum MPF benefits (“MMB”)","MPF corporate intermediary / corporate intermediary","MPF exempted ORSO scheme","MPF individual intermediary / individual intermediary","Notice of acceptance","Participation certificate","Payroll cycle","Permitted period","Preserved account","Registered scheme","Regular employee","Relevant employee","Remittance statement","Reserve charge","Scheme administrator","Self-employed person","Special voluntary contribution","Transferee trustee","Transferor trustee","Unclaimed benefit","Vested benefit","Vesting percentage","Voluntary contribution","Approved pooled investment fund (“APIF”)","Bid spread","Conduct requirements","Continuing Professional Development (“CPD”)","Defined benefit scheme","Defined contribution scheme","Domicile","Early retirement","Employee Choice Arrangement (“ECA”)","Fee table","Financial penalty","Forward pricing","Frontline regulator (“FR”)","Fund expense ratio (“FER”)","Fund fact sheet","Fund risk indicator","Fund size","Future contribution","Index-tracking collective investment scheme","Industry regulator (tbc)","Industry scheme","MPF principal intermediary (“PI”)","MPF registered intermediary / registered intermediary","MPF subsidiary intermediary / subsidiary intermediary (“SI”)","Net asset value (“NAV”)","Occupational retirement scheme (“ORSO scheme”)","Offer spread","Offering document","On-going cost illustration (“OCI”)","ORSO exempted scheme","ORSO registered scheme","ORSO scheme administrator","Performance requirement","Prescribed savings rate","Qualifying examination","Regulated activity","Relevant income","Responsible officer","Restricted investment"];
+	  </script>
+	  
+	  
+	  
+    	<div id="topnav">
+        	<ul class="topnav_left fl">
+            	<li style="border:none; padding:0 10px 0 0;"><a href="http://www.mpfa.org.hk/eng/main/index.jsp" id="topnavhome" title="Back to Index Page">Home</a></li>
+                <li><a href="javascript:void(0);" id="topnavhome2" title="Bookmark" onclick="addToBookmark()">Bookmark</a></li>
+                <li><a href="http://www.mpfa.org.hk/eng/main/useful_links/index.jsp" title="">Useful Links</a></li>
+                <li><a href="http://www.mpfa.org.hk/eng/main/subscribe/subscribe_form.jsp" title="">Subscribe</a></li>
+                <li><a href="http://www.mpfa.org.hk/eng/main/glossary/index.jsp" title="">Glossary</a></li>
+                <li><a href="http://www.mpfa.org.hk/eng/main/contact_us/index.jsp" title="">Contact Us</a></li>
+            </ul>
+            <ul class="topnav_right fr">
+				<li style="border:none;">
+					<a href="javascript:void(0);" id="contrastMode" class="contrastMode color" title="Enable/Disable High Contrast Mode">Enable/Disable High Contrast Mode</a>
+				</li>
+                <li>
+					<a href="javascript:void(0);" rel="styles2" class="styleswitch fontsize1" style="font-size:10px; line-height:20px;" title="Text size: smaller">A</a>
+					<a href="javascript:void(0);" rel="styles1" class="styleswitch fontsize2" style="font-size:15px; padding:0 10px; line-height:18px;" title="Text size: default">A</a>
+					<a href="javascript:void(0);" rel="styles3" class="styleswitch fontsize3" style="font-size:16px;" title="Text size: larger">A</a>
+				</li>
+                
+				<li><a href="javascript:void(0);" onclick="jump(&#39;tch&#39;)" style="font-size:12px;" title="">繁體</a></li>
+                <li><a href="javascript:void(0);" onclick="jump(&#39;sch&#39;)" style="font-size:12px;" title="">简体</a></li>                                
+                
+                <li><a href="javascript:void(0);" onclick="jumtxt(&#39;engtxt&#39;)" title="">Text</a></li> 
+                <li><a href="http://www.mpfa.org.hk/engm/main/index.jsp" title="">Mobile Version</a></li>
+                <li><a href="http://www.mpfa.org.hk/eng/main/mobileapps/index.jsp" title="">Mobile Apps</a></li>
+                <li><a href="http://www.mpfa.org.hk/eng/main/rss/index.jsp" id="topnavrss" title="">RSS</a></li>
+            </ul>
+        </div><!-- End topnav-->
+        <a id="logo" href="http://www.mpfa.org.hk/eng/main/index.jsp" title="Mandatory Provident Fund Schemes Authority">Home</a>
+        <div id="serchbar">
+        	<div id="topsbfavourite">
+                <dl class="one">
+                    <dt><a href="javascript:void(0);" title="">My Favourite</a></dt>
+                    <dd>
+                        <ul><li class="pane" style="border:none; padding-top:10px; clear:both;"><a href="javascript:void(0);" class="btn_addthispage" onclick="addFav()">ADD THIS PAGE</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <div id="topserchbar">
+            	<form id="head_search" name="head_search" action="http://search.gov.hk/search.html" method="get">
+            		<input type="hidden" name="ui_lang" value="en">
+					<input type="hidden" name="ui_charset" value="utf-8">
+					<input type="hidden" name="gp0" value="mpfahk_home">
+					<input type="hidden" name="gp1" value="mpfahk_home">
+					<input type="hidden" name="tpl_id" value="mpfahk">
+					<input type="hidden" name="web" value="this">
+					<label for="topsbtext" class="wcagTxt">Enter Keyword</label>
+	                <input id="topsbtext" name="query" type="text" value="Enter Keyword" onfocus="if (value ==&#39;Enter Keyword&#39;){ value =&#39;&#39;; }" onblur="if (value ==&#39;&#39;){ value=&#39;Enter Keyword&#39;;  }" autocomplete="off" class="ac_input">
+	                <input type="hidden" name="txtonly" value="1">
+	                <input id="topsbbtn" type="button" onclick="checkSearch();" title="Search">
+	            <input name="csrftoken" type="hidden" value="null"></form>
+            </div>
+            <a id="advancedsearch" href="http://www.mpfa.org.hk/eng/main/search/index.jsp">Advanced Search</a>
+            <script src="./Occupational Retirement Schemes Register44_files/jQselect.js" type="text/javascript"></script>
+        </div>
+        <div id="menu"><ul id="nav" class="dropdown dropdown-horizontal"><li><a href="http://www.mpfa.org.hk/eng/mpfa/index.jsp" class="mainButton menu_01">MPFA</a><div onclick="window.location=&#39;/eng/mpfa/index.jsp&#39;" class="mainHigh high01"></div><ul><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpfa/welcome/index.jsp">Welcome</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpfa/welcome/chairman/index.jsp">Message from the Chairman</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/welcome/managing_director/index.jsp">Message from the Managing Director</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpfa/scopes_of_work/index.jsp">Scope of Work</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpfa/scopes_of_work/mission_and_role/index.jsp">Mission and Role</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/scopes_of_work/performance_pledges/index.jsp">Performance Pledges</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/regulatory_structure/index.jsp">Regulatory Structure</a></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpfa/organizational_structure/index.jsp">Organizational Structure</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpfa/organizational_structure/board_supporting_committees/index.jsp">Board and Supporting Committees</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/organizational_structure/statutory_advisory/index.jsp">Statutory Advisory Committees</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/organizational_structure/statutory_appeal_boards/index.jsp">Statutory Appeal Boards</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/organizational_structure/mpfa_orgchart/index.jsp">MPFA Organization Chart</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpfa/corporate_governance/index.jsp">Corporate Governance</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpfa/corporate_governance/governing_body/index.jsp">Governing Body</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/corporate_governance/public_accountability/index.jsp">Public Accountability</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/corporate_governance/internal_controls/index.jsp">Internal Controls</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/corporate_governance/independent_review/index.jsp">Independent Review</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/csr/index.jsp">Corporate Social Responsibility</a></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpfa/friends_of_mpf/index.jsp">Friends of MPF</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpfa/friends_of_mpf/friends_mpf_activities/index.jsp">Friends of MPF Activities</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpfa/join_us/index.jsp">Join Us</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpfa/join_us/what_we_offer/index.jsp">What We Offer</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/join_us/job_opportunities/index.jsp">Job Opportunities</a></li><li><a href="http://www.mpfa.org.hk/eng/mpfa/join_us/application_form/index.jsp">MPFA Job Application Form</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/isc/isc_login.jsp">Internal Staff Communication</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/index.jsp" class="mainButton menu_02">MPF System</a><div onclick="window.location=&#39;/eng/mpf_system/index.jsp&#39;" class="mainHigh high02"></div><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_system/background/index.jsp">Background</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/milestones/index.jsp">Milestones</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/schemes/index.jsp">Types of MPF Schemes</a></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_system/four_tier_protection/index.jsp">Four-tier Protection</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_system/four_tier_protection/stringent_approval/index.jsp">Stringent approval &amp; registration criteria</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/four_tier_protection/on_going_monitoring/index.jsp">On-going monitoring</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/four_tier_protection/professional_indemnity/index.jsp">Professional indemnity insurance</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/four_tier_protection/compensation_fund/index.jsp">Compensation Fund</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_system/system_features/index.jsp">Features of the MPF System</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/coverage/index.jsp">Coverage</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/enrolment/index.jsp">Enrolment</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/contributions/index.jsp">Contributions</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/tax_concessions/index.jsp">Tax Concessions</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/transfer_accrued_benefits/index.jsp">Transfer of Accrued Benefits</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/offsetting_long_service/index.jsp">Offsetting of Severance Payments and Long Service Payments</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/withdrawal_accrued_benefits/index.jsp">Withdrawal of Accrued Benefits</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_system/system_features/service_providers/index.jsp">Service Providers</a></li></ul></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/index.jsp" class="mainButton menu_03">MPF Education</a><div onclick="window.location=&#39;/eng/mpf_education/index.jsp&#39;" class="mainHigh high03"></div><ul><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_education/mpf_investment/index.jsp">Principles of MPF Investment</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_investment/investing_funds/index.jsp">Investing in Funds</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_investment/transaction_funds/index.jsp">Transaction of Funds</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_investment/dollar_cost_averaging/index.jsp">Dollar Cost Averaging</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/index.jsp">MPF Funds and Their Features</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/money_market_fund/index.jsp">Money Market Fund</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/guaranteed_fund/index.jsp">Guaranteed Fund</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/bond_fund/index.jsp">Bond Fund</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/mixed_assets_fund/index.jsp">Mixed Assets Fund</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/equity_fund/index.jsp">Equity Fund</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_funds/others/index.jsp">Others</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_decision_making/index.jsp">MPF Investment Decision Making Process</a></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_education/regulations/index.jsp">MPF Investment Regulations and Disclosure</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_education/regulations/investment_restrictions/index.jsp">Investment Regulations</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/regulations/mpf_disclosure/index.jsp">MPF Disclosure</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_education/mpf_calculators/index.jsp">MPF Calculators</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_calculators/retirement_needs/calculator3.jsp">Calculator on retirement needs</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/mpf_calculators/mpf_accrued_benefits/calculator.jsp">Calculator for projecting your MPF accrued benefits</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/index.jsp">Youth Corner</a><ul><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/kindergarten/index.jsp">Kindergarten</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/primary_school/index.jsp">Primary School</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/secondary_school/index.jsp">Secondary School</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/tertiary_institution/index.jsp">Tertiary Institution</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/teachers_zone/index.jsp">Teachers' Zone</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/parents_zone/index.jsp">Parents' Zone</a></li><li><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/download_zone/index.jsp">Download Zone</a></li><li><a href="http://www.mpfa.org.hk/eng/linkus/linkus.jsp">Link Us</a></li></ul></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/index.jsp" class="mainButton menu_04">Member Protection</a><div onclick="window.location=&#39;/eng/member_protection/index.jsp&#39;" class="mainHigh high04"></div><ul><li><a href="http://www.mpfa.org.hk/eng/member_protection/overview/index.jsp">Overview</a></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/member_protection/landmark_cases/index.jsp">Landmark Cases</a><ul><li><a href="http://www.mpfa.org.hk/eng/member_protection/landmark_cases/case_01/index.jsp">Case 1 : How come I have another employer?</a></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/landmark_cases/case_02/index.jsp">Case 2 : Who is the employer?</a></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/landmark_cases/case_03/index.jsp">Case 3 : What is genuine self-employment?</a></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/landmark_cases/case_04/index.jsp">Case 4 : Do employers need to make MPF contributions for short-term contract staff?</a></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/landmark_cases/case_05/index.jsp">Case 5 : Early withdrawal of accrued benefits on grounds of permanent departure from Hong Kong?</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/tv_drama_series/index.jsp">TV Drama Series on MPFA's Enforcement Actions</a></li><li><a href="http://www.mpfa.org.hk/eng/member_protection/mpf_regulations/index.jsp">Learn More About MPF Regulations</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/supervision/index.jsp" class="mainButton menu_05">Supervision</a><div onclick="window.location=&#39;/eng/supervision/index.jsp&#39;" class="mainHigh high05"></div><ul><li><a href="http://www.mpfa.org.hk/eng/supervision/objective/index.jsp">Objective</a></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/supervision/supervision_trustees/index.jsp">Supervision of Trustees</a><ul><li><a href="http://www.mpfa.org.hk/eng/supervision/supervision_trustees/registration_requirements/index.jsp">Registration Requirements</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/supervision_trustees/proactive_supervisory/index.jsp">Proactive Supervisory Approach</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/supervision_trustees/compliance_standards/index.jsp">Compliance Standards</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/supervision_trustees/mpf_approved_trustees/index.jsp">MPF Approved Trustees</a></li></ul></li><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/index.jsp">MPF Intermediaries</a><ul><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/intermediary_regulated_activities/index.jsp">MPF Intermediaries and Regulated Activities</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/regulatory_approach/index.jsp">Regulatory Approach</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/registration_requirements/index.jsp">Registration Requirements</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/on_going_requirements/index.jsp">On-going Requirements on MPF Intermediaries</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/intermediaries_examination/index.jsp">MPF Intermediaries Examination</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/continuing_training/index.jsp">Continuing Training</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/list_of_registered/index.jsp">Register of MPF Intermediaries</a></li><li><a href="http://www.mpfa.org.hk/eng/supervision/mpf_intermediaries/circular_letters_press_releases/index.jsp">Circular Letters related to MPF Intermediaries</a></li></ul></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/enforcement/index.jsp" class="mainButton menu_06">Enforcement</a><div onclick="window.location=&#39;/eng/enforcement/index.jsp&#39;" class="mainHigh high06"></div><ul><li><a href="http://www.mpfa.org.hk/eng/enforcement/overview/index.jsp">Overview</a></li><li><a href="http://www.mpfa.org.hk/eng/enforcement/complaint_handling_against_MPF_trustees/index.jsp">Complaint Handling and Enforcement Actions Against Trustees</a></li><li><a href="http://www.mpfa.org.hk/eng/enforcement/disciplinary_orders_against_MPF_Intermediaries/index.jsp">Complaints and Disciplinary Orders Against MPF Intermediaries</a></li><li><a href="http://www.mpfa.org.hk/eng/enforcement/against_employers_schemeMembers/index.jsp">Enforcement Actions Against Non-compliant Employers and Scheme Members</a></li><li><a href="http://www.mpfa.org.hk/eng/enforcement/nceor/nceor.jsp">Non-Compliant Employer and Officer Records</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/index.jsp" class="mainButton menu_07">Legislation &amp; Regulations</a><div onclick="window.location=&#39;/eng/legislation_regulations/index.jsp&#39;" class="mainHigh high07"></div><ul class="menu2Left"><li class="level3Menu"><a class="dir" href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/index.jsp">Legislation &amp; Regulations</a><ul><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/overview_regulatory_framework/index.jsp">Overview of Regulatory Framework</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/ordinance/index.jsp">Ordinance</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/regulation/index.jsp">Regulations</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/codes/index.jsp">Codes</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/guidelines/index.jsp">Guidelines</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/circulars/index.jsp">Circulars</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/standards/index.jsp">Standards</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/memorandum/index.jsp">Memorandum of Understanding</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/BPN/Best_Practice_Note.jsp">Best Practice Note</a></li></ul></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/index.jsp" class="mainButton menu_08">Public Registers</a><div onclick="window.location=&#39;/eng/public_registers/index.jsp&#39;" class="mainHigh high08"></div><ul class="menu2Left"><li><a href="http://www.mpfa.org.hk/eng/public_registers/approved_mpf_trustees/trlist.do">MPF Approved Trustees</a></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/registered_schemes_cf/fusearch.do">Registered MPF Schemes and Constituent Funds</a></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/public_registers/registered_mpf_intermediaries/principal_intermediary/inter.do">Registered MPF Intermediaries</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/public_registers/registered_mpf_intermediaries/principal_intermediary/inter.do?cmd=pi">Principal Intermediary</a></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/registered_mpf_intermediaries/subsidiary_intermediary/inter.do?cmd=si">Subsidiary Intermediary</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orsearch.do">ORSO Schemes</a></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/mpf_exempted_orso_schemes/eorsearch.do">MPF Exempted ORSO Schemes</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/orso/index.jsp" class="mainButton menu_09">ORSO</a><div onclick="window.location=&#39;/eng/orso/index.jsp&#39;" class="mainHigh high09"></div><ul class="menu2Left"><li><a href="http://www.mpfa.org.hk/eng/orso/overview/index.jsp">Overview</a></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/orso/legislation/index.jsp">Legislation</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/orso/legislation/orso/index.jsp">Occupational Retirement Schemes Ordinance</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/legislation/mpf_exemption_regulation/index.jsp">Mandatory Provident Fund Schemes (Exemption) Regulation</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/guidelines/current_version/orso_interface/index.jsp">Guidelines on ORSO Interface</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/orso/basic_requirements/index.jsp">Basic Requirements for ORSO Schemes</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/orso/basic_requirements/registered_schemes/index.jsp">Basic Requirements for Registered Schemes</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/basic_requirements/exempted_schemes/index.jsp">Basic Requirements for Exempted Schemes</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/orso/scheme_features/index.jsp">Scheme Features</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/orso/scheme_features/contributions/index.jsp">Contribution Requirements</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/scheme_features/vesting_benefits/index.jsp">Vesting of Benefits</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/scheme_features/reduction/index.jsp">Reduction of Accrued Rights or Vested Benefits</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/scheme_features/dismissal_redundancy/index.jsp">Dismissal or Redundancy</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/scheme_features/bankruptcy_members/index.jsp">Bankruptcy of Members</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/orso/statutory_requirements/index.jsp">Statutory Requirements for Employees and Relevant Employers</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/orso/statutory_requirements/offer_an_option/index.jsp">Offer the Option Between an MPF Exempted ORSO Scheme and an MPF Scheme</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/statutory_requirements/offsetting/index.jsp">Offsetting (Severance and Long Service Payments)</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/statutory_requirements/disclosure/index.jsp">Disclosure of Information</a></li><li><a href="http://www.mpfa.org.hk/eng/orso/statutory_requirements/preservation_withdrawal/index.jsp">Preservation and Withdrawal Requirements of Minimum MPF Benefits</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/forms/orso_schemes/index.jsp">Forms</a></li><li><a href="http://www.mpfa.org.hk/eng/legislation_regulations/legulations_ordinance/circulars/orso/index.jsp">Circular Letters</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/index.jsp">FAQs</a></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/orso/registers_orso/index.jsp">Registers of ORSO Schemes</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orsearch.do">Search on ORSO Schemes</a></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/mpf_exempted_orso_schemes/eorsearch.do">Search on MPF Exempted ORSO Schemes</a></li></ul></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/index.jsp" class="mainButton menu_010">Information Centre</a><div onclick="window.location=&#39;/eng/information_centre/index.jsp&#39;" class="mainHigh high010"></div><ul class="menu2Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/press_releases/list.do">Press Releases</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/feature_articles/index.jsp">MPFA Articles</a></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/publications/index.jsp">Publications</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/publications/mpfa_corporate_brochure/index.jsp">MPFA Corporate Brochure</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/publications/annual_reports/index.jsp">Annual Reports</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/publications/booklets_publications/index.jsp">MPF Booklets &amp; Publications</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/publications/research_reports/index.jsp">Research Reports</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/publications/mpfa_newsletter/index.jsp">MPFA Newsletter</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/publications/anniversary/index.jsp">MPF Anniversary Publications</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/advertisements/index.jsp">Advertisements</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/advertisements/print/index.jsp">Print</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/advertisements/radio/index.jsp">Radio</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/advertisements/tv_video/index.jsp">TV / Video</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/funds_information/index.jsp">Funds Information</a><ul class="menu3Left"><li><a href="http://cplatform.mpfa.org.hk/MPFA/english/index.jsp" target="_blank">Fee Comparative Platform</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/funds_information/monthly_fund_prices/index.jsp">Monthly Fund Prices</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/funds_information/prescribed_savings_rate/index.jsp">Prescribed Savings Rate</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/statistics/index.jsp">Statistics</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/statistics/mpf_statistics_update/index.jsp">MPF Statistics Update</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/statistics/mpf_schemes_statistical_digest/index.jsp">MPF Schemes Statistical Digest</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/statistics/MPF_Statistical_Report/index.jsp">MPF Statistical Report</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/statistics/orso_schemes_statistics/index.jsp">ORSO Schemes Statistics</a></li></ul></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/Consultations_and_Conclusions/index.jsp">Consultations and Conclusions</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/Submission/Index.jsp">Submission from MPFA on MPF-related Issues</a></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/faq/index.jsp">FAQ</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/employee/index.jsp">Employee</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/employer/index.jsp">Employer</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/self_employed_person/index.jsp">Self-employed Person</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/industry_practitioner/index.jsp">Industry Practitioner</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/mpf_investments/index.jsp">MPF Investments</a></li><li><a href="http://minisite.mpfa.org.hk/eca/en/faq/" target="_blank">Employee Choice Arrangement</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/enforcement/index.jsp">Enforcement</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/faq/INT/index.jsp">Statutory Regulatory Regime for MPF Intermediaries</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/forms/index.jsp">Forms</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/forms/mpf_schemes/index.jsp">MPF Schemes</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/forms/orso_schemes/index.jsp">ORSO Schemes</a></li></ul></li><li class="level3Menu"><a class="dir dirLeft" href="http://www.mpfa.org.hk/eng/information_centre/useful_lists/index.jsp">Useful Lists</a><ul class="menu3Left"><li><a href="http://www.mpfa.org.hk/eng/information_centre/useful_lists/approved_constituent_funds/acfsearch.do">Approved Constituent Funds</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/useful_lists/approved_pooled_investment_funds/apsearch.do">Approved Pooled Investment Funds</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/useful_lists/index_tracking_collective_investment_schemes/itlist.do">Approved Index-Tracking Collective Investment Schemes</a></li><li><a href="http://www.mpfa.org.hk/eng/information_centre/useful_lists/approved_overseas_banks/aoblist.do">Approved Overseas Banks</a></li></ul></li></ul></li></ul></div>
+    </div><!-- End Header-->
+
+	<form name="orso" id="pageform" method="post" action="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do">
+		<input type="hidden" name="currentlyPage" id="currentlyPage">
+		<input type="hidden" name="fenbanTag" id="fenbanTag">
+		<input type="hidden" name="lang" id="lang" value="eng">
+		<input type="hidden" name="orsono" value="">
+	    <input type="hidden" name="schemeName" value="">
+	    <input type="hidden" name="emploerName" value="">	    
+	    <input type="hidden" name="orsotype" value="">	    			    		
+	<input name="csrftoken" type="hidden" value="null"></form>
+    <div class="insideban"><img src="./Occupational Retirement Schemes Register44_files/ban_publicregisters.jpg"></div><!-- End Inside Banner-->
+    <div class="insidemain">
+    	<span class="BreadcrumbNav"><script>document.write(page_static9);</script><a href="http://www.mpfa.org.hk/eng/main/index.jsp" class="path">Home</a> &gt; <a href="http://www.mpfa.org.hk/eng/public_registers/index.jsp" class="path">Public Registers</a> &gt; <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orsearch.do" class="path">ORSO Schemes</a>  </span>
+        <div class="insidebar">
+			
+
+
+
+<script type="text/javascript"> $(document).ready(function(){highlight('3');}); </script><div class="insidemenu"><div class="insidemenumain" id="insidemenu_main"><p onclick="javascript:highlight(0);" id="flip_0" class="flip nosubnav"><a href="http://www.mpfa.org.hk/eng/public_registers/approved_mpf_trustees/trlist.do">MPF Approved Trustees</a></p><p onclick="javascript:highlight(1);" id="flip_1" class="flip nosubnav"><a href="http://www.mpfa.org.hk/eng/public_registers/registered_schemes_cf/fusearch.do">Registered MPF Schemes and Constituent Funds</a></p><p id="flip_2" class="flip"><a href="http://www.mpfa.org.hk/eng/public_registers/registered_mpf_intermediaries/principal_intermediary/inter.do">Registered MPF Intermediaries</a></p><ul class="panel" id="panel_2" style="display: none;"><li><a href="http://www.mpfa.org.hk/eng/public_registers/registered_mpf_intermediaries/principal_intermediary/inter.do?cmd=pi"> Principal Intermediary</a></li><li><a href="http://www.mpfa.org.hk/eng/public_registers/registered_mpf_intermediaries/subsidiary_intermediary/inter.do?cmd=si"> Subsidiary Intermediary</a></li></ul><p onclick="javascript:highlight(3);" id="flip_3" class="flip nosubnav on"><a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orsearch.do">ORSO Schemes</a></p><p onclick="javascript:highlight(4);" id="flip_4" class="flip nosubnav"><a href="http://www.mpfa.org.hk/eng/public_registers/mpf_exempted_orso_schemes/eorsearch.do">MPF Exempted ORSO Schemes</a></p><div class="clear"></div><strong id="insidemenutop"></strong><strong id="insidemenubottom"></strong></div></div>
+              
+        	<div class="insidebarycorner"><a href="http://www.mpfa.org.hk/eng/mpf_education/youth_corner/index.jsp">Youth Corner</a></div>
+            <div class="insidelinks">
+				<strong class="lineTopPng"></strong>
+            	<div class="QLinks">Quick Links</div>
+                <ul>
+                	<li><a href="http://www.mpfa.org.hk/eng/main/employee/index.jsp"><img src="./Occupational Retirement Schemes Register44_files/links_employee.png" class="png" alt="Employee"><span>Employee</span></a></li>
+                    <li><a href="http://www.mpfa.org.hk/eng/main/employer/index.jsp"><img src="./Occupational Retirement Schemes Register44_files/links_employer.png" class="png" alt="Employer"><span>Employer</span></a></li>
+                    <li><a href="http://www.mpfa.org.hk/eng/main/self_employed_person/index.jsp"><img src="./Occupational Retirement Schemes Register44_files/links_self-employed.png" class="png" alt="Self-employed Person"><span style="padding:10px 0 0 0; line-height:100%; height:34px;">Self-employed Person</span></a></li>
+                    <li style="height:131px;">
+                    	<a href="http://www.mpfa.org.hk/eng/main/industry_practitioner/index.jsp" class="insidebtmenua">
+                    		<img src="./Occupational Retirement Schemes Register44_files/links_industry.png" class="png" alt="Industry Practitioner">
+                    		<span style="padding:10px 0 0 0; line-height:100%; height:33px;">Industry<br>Practitioner</span>
+                    	</a>
+                    	<p class="insidebtmenu04"><a href="http://www.mpfa.org.hk/eng/main/industry_practitioner/trustee/index.jsp">Trustee</a></p>
+                        <p class="insidebtmenu04"><a href="http://www.mpfa.org.hk/eng/main/industry_practitioner/intermediary/index.jsp">Intermediary</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="insideright">
+           <div id="printcontent">           
+        	<h1>Occupational Retirement Schemes Register<span style="color: #000000; font-size: 12px; font-weight:normal;">(as at 24 Jun 2016)</span></h1>
+            <div class="insiderightmain" style="padding-top:0;">              				
+  				<div class="orso">                	
+                	<div style="margin-bottom:15px; height:5px;">&nbsp;</div>
+                    <div class="pagenav" style="padding:0 0 15px 0;">
+                        <h4 class="fl" style="color:#ff8e01; font-size:14px;">Summary Line</h4>
+                         
+                         <span class="fr">
+                           
+                            
+                         
+                         
+                         
+                         
+				        				           
+						      <a href="javascript:void(0);" title="" onclick="fenban(1)">|&lt;</a>
+				         
+                         
+                        
+				        
+						   <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(43)">&lt; Prev</a>
+				         
+				      
+				      
+     
+                   
+                        
+                   		
+                   		
+                   			
+                       
+                       
+     
+                       
+     
+                       
+     
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(41)"> 41 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(42)"> 42 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(43)"> 43 </a>				             
+				             
+				          
+                     
+                        
+				             
+				               <a href="javascript:void(0);" title="" class="pageactive"> 44 </a>
+				             
+				            
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(45)"> 45 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(46)"> 46 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(47)"> 47 </a>				             
+				             
+				          
+                     
+                   		
+                   
+                     
+                     
+			 	      
+                        
+                       
+                         <a href="javascript:void(0);" title="" onclick="jp(45)">Next &gt;</a>
+                       
+                       
+                       
+                       
+						     <a href="javascript:void(0);" title="" onclick="fenban(156)">&gt;|</a>                          
+                       
+                        </span>
+                    
+                        <div class="clear"></div>
+                    </div>
+                   <table width="100%" border="0" cellspacing="1" cellpadding="0" style="margin-bottom:10px;" class="movementtbth">
+                      <tbody><tr>
+                        <th width="200" align="left" valign="top" scope="col" style="background-color:#eceaea; border-top:2px solid #b2b2b2;">Name of Scheme (Eng)</th>
+                        <th width="160" align="left" valign="top" style="background-color:#eceaea; border-top:2px solid #b2b2b2;" scope="col">Name of Scheme (Chi)</th>
+                        <th width="180" align="left" valign="top" style="background-color:#eceaea; border-top:2px solid #b2b2b2;" scope="col">MPF Exemption No.</th>
+                        <th width="180" align="left" valign="top" style="background-color:#eceaea; border-top:2px solid #b2b2b2;" scope="col">ORSO Exemption / Registration No.</th>
+                      </tr>
+                      
+                       
+                        
+                        
+                        
+                          
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000014411" class="orsodetaillink">GOLD PEAK GROUP PROVIDENT FUND SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR005694A</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R010773(4)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000007505" class="orsodetaillink">GOLDBRIDGE REALTY LIMITED PROVIDENT FUND SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0030835</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R006698(1)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000028954" class="orsodetaillink">GOLDEN ELECTRICAL TRADING CO., LTD. DEFINED CONTRIBUTION SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0032293</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R025185(1)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000051098" class="orsodetaillink">GOLDEN FORESTRY ORS TRUST</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;"></td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E002980(6)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000050251" class="orsodetaillink">GOLDEN FORTUNE SHIPPING CO. LIMITED RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0065647</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R028252(8)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000026994" class="orsodetaillink">GOLDEN PRINTING &amp; DESIGN LIMITED RETIREMENT BENEFITS SCHEME , THE</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0007833</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R023315(2)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000013762" class="orsodetaillink">GOLDEN TOBACCO INTERNATIONAL LTD. PROVIDENT FUND</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0048998</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R011590(7)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000014205" class="orsodetaillink">GOLDMAN SACHS &amp; CO. EMPLOYEES' PENSION PLAN</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE0000469</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E001047(1)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000013508" class="orsodetaillink">GOLDMAN SACHS (ASIA) SECURITIES LIMITED - THE CENTRAL PROVIDENT FUND OF SINGAPORE</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE0000566</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E001466(3)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000004540" class="orsodetaillink">GOLDMAN SACHS (ASIA) SECURITIES LIMITED RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0063768</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R004126(1)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000014207" class="orsodetaillink">GOLDMAN SACHS 401(K) PLAN , THE</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE0000485</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E001046(3)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000032793" class="orsodetaillink">GOLDMAN SACHS AUSTRALIA SUPERANNUATION PLAN</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE0004596</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E002272(0)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000031692" class="orsodetaillink">GOLDMAN SACHS JAPAN LIMITED TAX QUALIFIED PENSION PLAN</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE0002704</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E002301(8)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000014212" class="orsodetaillink">GOLDMAN SACHS UK RETIREMENT PLAN</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE000555A</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E001678(A)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000033157" class="orsodetaillink">GOLIK METAL INDUSTRIAL CO LTD RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;"></td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R027318(9)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000037202" class="orsodetaillink">GOLIK METAL MANUFACTURING CO LIMITED RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;"></td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R027930(6)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000027329" class="orsodetaillink">GOOD FUNDS SERVICES LIMITED DEFINED CONTRIBUTION SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0026161</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R023515(5)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000003544" class="orsodetaillink">GOOD LOYAL INDUSTRIES LIMITED RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0016891</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R003088(A)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000031457" class="orsodetaillink">GOOD SHEPHERD RESIDENTIAL SERVICES LIMITED DEFINED CONTRIBUTION SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0055218</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R026987(4)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000035333" class="orsodetaillink">GOODMAN DP WORLD HONG KONG LIMITED RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0053495</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R027598(A)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000002040" class="orsodetaillink">GOODMAN FIELDER INTERNATIONAL (HONG KONG) LIMITED PROVIDENT FUND</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0044828</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R001709(3)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000028278" class="orsodetaillink">GOODWELL SAM CHEONG GROCERY COMPANY LIMITED DEFINED CONTRIBUTION SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0035241</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R024496(0)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000003336" class="orsodetaillink">GOODYEAR INTERNATIONAL CORPORATION RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0049978</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R003303(A)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000008102" class="orsodetaillink">GORTH MANAGEMENT LIMITED RETIREMENT SCHEME</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0044968</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R007092(A)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000037961" class="orsodetaillink">GOVERNMENT OCCUPATIONAL RETIREMENT SCHEME OF BEIJING</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;"></td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E002597(5)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000037962" class="orsodetaillink">GOVERNMENT OCCUPATIONAL RETIREMENT SCHEME OF SHANGHAI</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;"></td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E002598(3)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000050002" class="orsodetaillink">GOVERNMENT OF ALBERTA, HONG KONG OFFICE PROVIDENT FUND</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OE0001341</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">E/CAN02(X)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000051009" class="orsodetaillink">GOVERNMENT OF THE HONG KONG SPECIAL ADMINISTRATIVE REGION RETIREMENT SCHEME , THE</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR003119A</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R028826(7)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000018546" class="orsodetaillink">GRACE HEALTHCARE LIMITED PROVIDENT FUND</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;"></td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R016119(4)</td>
+                        </tr>
+                        
+                           <tr>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">   
+                                                                                   
+                               <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/ordetail.do?schId=000000000026995" class="orsodetaillink">GRACE RESOURCE SERVICE LIMITED RETIREMENT BENEFITS SCHEME , THE</a>
+                               
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">
+                              
+                             </td>
+                             <td valign="top" style="border-bottom:1px solid #f2f2f2;">OR0047142</td>
+                              <td valign="top" style="border-bottom:1px solid #f2f2f2;">R026494(5)</td>
+                        </tr>
+                        
+                        
+                      
+                    </tbody></table>
+                    
+                    <div class="pagenav" style="padding-bottom:20px; ">
+               			<h4 class="fl" style="color:#555; font-size:11px; font-weight:normal;">Page 44 of 156</h4>
+                         <span class="fr">
+                         
+                            
+                         
+                         
+                         
+                         
+				        				           
+						      <a href="javascript:void(0);" title="" onclick="fenban(1)">|&lt;</a>
+				         
+                          
+                        
+				        
+						   <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(43)">&lt; Prev</a>
+				         
+				      
+				      
+     
+                   
+                        
+                   		
+                   		
+                   			
+                       
+                       
+     
+                       
+     
+                       
+     
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(41)"> 41 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(42)"> 42 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(43)"> 43 </a>				             
+				             
+				          
+                     
+                        
+				             
+				               <a href="javascript:void(0);" title="" class="pageactive"> 44 </a>
+				             
+				            
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(45)"> 45 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(46)"> 46 </a>				             
+				             
+				          
+                     
+                        
+				             
+				            
+					            <a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" title="" onclick="jp(47)"> 47 </a>				             
+				             
+				          
+                     
+                   		
+                   
+                     
+                     
+			 	      
+                        
+                       
+                         <a href="javascript:void(0);" title="" onclick="jp(45)">Next &gt;</a>
+                       
+                       
+                       
+                       
+						      <a href="javascript:void(0);" title="" onclick="fenban(156)">&gt;|</a>                          
+                       
+                        </span>
+                    </div>
+                     
+                 	<h2 style="margin-top:20px;" class="orsotitle02">Search on ORSO Schemes Register</h2>
+                     <form name="orso" id="001" method="post" action="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do">
+                     <input type="hidden" name="lang" id="lang" value="eng">
+                        <div class="searchtable fixed" style="padding-bottom:20px">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                             <tbody><tr>
+                                <td width="316" valign="top">ORSO Exemption / Registration No.:</td>
+                                <td height="30">
+                                	<input class="searchtextinput" name="orsono" type="text" value="" maxlength="10">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td valign="top">Name of Scheme:</td>
+                                <td height="30">
+                                	<input class="searchtextinput" name="schemeName" type="text" value="" maxlength="255">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td valign="top">Name of Employer:</td>
+                                <td height="30">
+                                	<input class="searchtextinput" name="emploerName" type="text" value="" maxlength="255">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="246">Type:</td>
+                                <td height="30"><input class="searchradio" name="orsotype" type="radio" value="" checked="checked"><label class="searchlabel">ALL</label></td>
+                              </tr>
+                              <tr>
+                                <td width="246"></td>
+                                <td height="20"><input class="searchradio" name="orsotype" type="radio" value="R"><label class="searchlabel">ORSO Registered Scheme</label></td>
+                              </tr>
+                              <tr>
+                                <td width="246"></td>
+                                <td height="30"><input class="searchradio" name="orsotype" type="radio" value="E"><label class="searchlabel">ORSO Exempted Scheme</label></td>
+                              </tr>
+                             </tbody></table>
+                            <span class="searchimg"></span>
+                        </div>
+                    <div class="formbtn">
+                        <input type="submit" class="btn_search" name="Search" value="Search">                   	
+                         <a name="" href="javascript:void(0)" onclick="cl()" title="" class="reset">Reset</a>                    
+                    </div>
+                    <input name="csrftoken" type="hidden" value="null"></form>
+                </div>
+             </div>
+            </div>
+            
+<script type="text/javascript">
+	function iprint(){
+		var url = document.URL;
+		if (url.indexOf("/main/employee") != -1 || url.indexOf("/main/employer") != -1 || url.indexOf("/main/self_employed_person") != -1 || url.indexOf("/main/industry_practitioner") != -1) {
+			window.open("/eng/main/print_role.jsp");
+		} else {
+			window.open("/eng/main/print.jsp");
+		}
+	}
+</script>
+			<div class="clear"></div>
+            <div class="btn_social">
+            	<ul> 
+					<li><a href="javascript:void(0);" title="Share to Twitter" class="btn_twitter" onclick="shareToT()">Share to Twitter</a></li>
+                	<li><a href="javascript:void(0);" title="Share to Facebook" class="btn_facebook" onclick="shareToF()">Share to Facebook</a></li>
+                    <li><a href="javascript:void(0);" title="Send thru Email" class="btn_mail" onclick="shareToM()">Send thru Email</a></li>
+                    <li style="border-left:1px solid #ccc;margin:0 4px;"><a href="javascript:void(0);" title="Give Feedback" class="btn_chat" onclick="shareToC()">Give Feedback</a></li>
+                    <li style="border-left:1px solid #ccc;"><a href="javascript:void(0);" title="Print This Page" class="btn_print" onclick="iprint()">Print This Page</a></li>
+                </ul>
+            </div>
+            <p class="reviewdate" id="printDate">Last Revision Date: 24/06/2016&nbsp;
+<span></span></p>
+        </div>
+        <div class="clear"></div>
+    </div><!-- End Insidemain-->
+    
+
+
+	﻿
+
+<div id="partner">
+	<ul>
+		<li><a href="http://www.webforall.gov.hk/en/scheme/2016/judgingcriteria/web" target="_blank" title="Web Accessibility Recognition Scheme 2016"><img src="./Occupational Retirement Schemes Register44_files/partner08.png" alt="Web Accessibility Recognition Scheme 2016"></a></li>
+		<li><a href="http://www.caringcompany.org.hk/index.php" target="_blank" title="Caring Organisation logo"><img src="./Occupational Retirement Schemes Register44_files/partner01.jpg" alt="Caring Organization logo"></a></li>
+		<li><a href="http://www.organdonation.gov.hk/" target="_blank" title="Link to &quot;Support Organ Donation&quot;"><img src="./Occupational Retirement Schemes Register44_files/partner03.jpg" alt="Organ Donation"></a></li>
+		<li><a href="http://www.erb.org/md/en/" target="_blank" title="&quot;Manpower Developer&quot; Scheme"><img src="./Occupational Retirement Schemes Register44_files/partner05.jpg" alt="ERB Manpower Developer Award Scheme"></a></li>
+		<li><a href="http://www.lwb.gov.hk/charter_scheme/index_e.html" target="_blank" title="Talent-Wise Employment Charter and Inclusive Organisations Recognition Scheme"><img src="./Occupational Retirement Schemes Register44_files/partner06.jpg" alt="Talent-Wise Employment Charter and Inclusive Organisations Recognition Scheme"></a></li>
+		
+	</ul>
+</div><!-- End partner-->
+    <div id="footer"> 
+        <p id="footer_right">
+		© 2016 Mandatory Provident Fund Schemes Authority. All rights reserved<br>Best viewed with Internet Explorer 8.0 or above with 1024 X 768 resolution
+		</p>
+		
+    	<p id="footer_left" class="fl">
+		<a href="http://www.mpfa.org.hk/eng/main/disclaimer/index.jsp">Disclaimer</a><span>|</span>
+		<a href="http://www.mpfa.org.hk/eng/main/privacy_policy/index.jsp">Privacy Policy</a><span>|</span>
+		<a href="http://www.mpfa.org.hk/eng/main/copyright_notice/index.jsp">Copyright Notice</a><span>|</span>
+		<a href="http://www.mpfa.org.hk/eng/main/access_information/index.jsp">Access to Information</a><br>
+		<a href="http://www.mpfa.org.hk/eng/main/accessibility/index.jsp">Accessibility</a><span>|</span>
+		<a href="http://www.mpfa.org.hk/eng/main/sitemap/index.jsp">Sitemap</a><span>|</span>
+		<a href="http://www.mpfa.org.hk/eng/main/system_requirements/index.jsp">System Requirements</a><span>|</span>
+		<a href="http://www.mpfa.org.hk/eng/main/system_maintenance/index.jsp">System Maintenance Schedule</a></p>
+
+    </div><!-- End footer-->
+	<script type="text/javascript">
+	appendToken();
+	</script>
+
+<!--<div class="sideBox" id="div_Right"  style="top:360px;">-->
+<div class="sideBox" id="div_Right">
+	<div class="contentArea">
+    	<a href="http://www.mpfa.org.hk/eng/public_registers/orso_schemes/orlist.do#" style="margin-top:14px;">Top</a>
+        <a onclick="javascript:history.back()" style="margin-top:12px;" href="javascript:void(0);">Back</a>
+    </div>
+</div>
+<!--<script type="text/javascript" src="/eng/js/topback.js"></script>-->
+</div><!-- End Wrap-->
+
+</body></html>
